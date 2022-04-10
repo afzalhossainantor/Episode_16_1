@@ -1,0 +1,918 @@
+
+/* // `xs` returns only a ruleset and no media query */
+@media screen and ( max-width: 575.98px ) {
+
+    .nav_part{
+
+        position: relative;
+    }
+  
+    nav .nav_part ul {
+        flex-direction: column;
+        /* border: 1px solid red; */
+        position: absolute;
+        right: -5px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.146);
+        padding: 10px 10px;
+        display: none;
+        border-radius: 5px;
+        z-index: 99;
+        top: 50px;
+    }
+
+    nav  ul.active{
+
+        display: block;
+    }
+
+    .toggle_btn {
+
+        margin-top: 5px;
+    }
+
+    nav .nav_part ul li {
+
+        padding-top: 0px;
+      
+    }
+
+    nav .nav_part ul li a {
+
+        color: #000000;
+        font-size: 15px;
+        padding: 0px 0px;
+       
+    }
+
+    nav .nav_part ul li {
+       
+        margin-right: 0px;
+    }
+
+    nav .logo_img img {
+        max-width: 140px;
+    }
+
+  
+    header .header_first ul li a i {
+        
+        padding-right: 13px;
+    }
+
+    header .header_first ul {
+      
+        justify-content: center;
+    }
+
+    header .header_first {
+
+        margin-right: 0px;
+    }
+
+    header .header_first ul li a {
+
+        margin-right: 9px;
+        margin-bottom: 5px;
+    }
+
+    header .header_2nd ul {
+        
+        justify-content: center;
+    }
+
+    #banner .banner_img h2 {
+
+        font-size: 20px;
+    }
+
+    #banner .banner_img h1 {
+      
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    #banner .banner_img p {
+
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 15px;
+    }
+
+    #banner .banner_img .link_btn {
+       
+        padding: 15px 13px;
+        line-height: 12px;
+    }
+
+    #banner .banner_img {
+
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .common_heading h2 {
+        
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+
+    #banner .angel_left {
+      
+        top: 8%;
+    }
+
+    #banner .angel_right {
+     
+        top: 8%;
+       
+    }
+
+    .common_heading {
+
+        padding-top: 35px;
+    }
+
+    .common_heading p {
+       
+        font-size: 12px;
+        padding-bottom: 10px;
+        line-height: 18px;
+    }
+
+    #benefits .benefits_about .icon_part {
+      
+        padding-bottom: 15px;
+    }
+
+    #benefits .benefits_about h2 {
+
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    #benefits .benefits_about p {
+
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #products .products_div .heading_2 h2 {
+     
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    #products .products_div .heading_2 ul li {
+      
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #products .products_div .Standart_part h2 {
+       
+        padding-top: 12px;
+    }
+
+    #products .products_div .link_button {
+
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+
+    #products .products_div .link_button a {
+       
+        padding: 10px 20px;
+    }
+
+     #products .products_div .heading_2 h2 {
+     
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    #products .products_div .heading_2 ul li {
+      
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+   
+
+    #products .products_div .professional_part2 h2{
+
+         
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    #products .products_div .link_button {
+
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+
+    #products .products_div .link_button a {
+       
+        padding: 10px 20px;
+    }
+
+    #products .products_div .professional_part h2 {
+      
+        padding-top: 12px;
+    }
+
+    #products .products_div .Standart_part p {
+     
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    #products .products_div .professional_part2 ul li {
+      
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #products .products_div .link_buttonpro {
+
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+
+    #products .products_div .link_buttonpro a {
+      
+        padding: 10px 20px;
+    }
+
+    #products .products_div .professional_part p {
+        
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    #products .products_div .unlimited_part h2 {
+       
+        padding-top: 14px;
+        
+    }
+
+    #products .products_div .unlimited_part p{
+
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    #products .products_div .unlimited_part2 h2 {
+        
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #products .products_div .unlimited_part2 ul li {
+       
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #products .products_div .link_buttonun {
+
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+
+    #products .products_div .link_buttonun a {
+      
+        
+        padding: 13px 25px;
+    }
+
+    #products .products_div .premium_part h2 {
+       
+        padding-top: 15px;
+    }
+
+    #products .products_div .premium_part p {
+      
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    #products .products_div .premium_part2 h2 {
+    
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #products .products_div .premium_part2 ul li {
+     
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #products .products_div .link_buttonpre {
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #products .products_div .link_buttonpre a {
+       
+        padding: 13px 25px;
+    }
+
+    .products_full {
+
+        padding-bottom: 30px;
+    }
+
+    #products {
+
+        padding-bottom: 30px;
+    }
+
+    .paragraph_part p {
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 19px;
+        padding-right: 35px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #work .paragraph_full p {
+       
+        font-size: 12px;
+        padding-left: 12px;
+    }
+
+    #work {
+       
+        padding-bottom: 40px;
+    }
+
+    #work .our_list {
+
+        padding-top: 25px;
+    }
+
+    #work .our_list ul li {
+       
+        font-size: 16px;
+        line-height: 34px;
+        padding-left: 22px;
+       
+    }
+
+    #about_us .about_part p {
+      
+        font-size: 12px;
+    }
+
+    #clients .image_part {
+        
+        padding: 25px 48px;
+      
+    }
+
+    #waxom .waxom_part {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    #waxom .links_button {
+
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    #waxom .links_button a {
+       
+        padding: 20px 30px;
+    }
+
+    #waxom .waxom_part p {
+       
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    #waxom .waxom_part h2 {
+
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    #clients {
+       
+        padding-bottom: 50px;
+    }
+
+    #about_us .img_part {}
+    #about_us .img_part img{
+
+        width: 100%;
+    }
+
+    #about_us .img_part {
+        width: 100px;
+    }
+
+    #about_us .about_part {
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    #about_us .img_part {
+        width: 30%;
+    }
+    #about_us .about_part .about_partn {
+        width: 70%;
+    }
+    footer .footer_top {
+      
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    footer .footer_top .services h2 {
+       
+        padding-top: 40px;
+        padding-bottom: 13px;
+    }
+
+    footer .footer_top .wax_part a {
+     
+        padding-top: 0px;
+    }
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 576px)  and (max-width: 767.98px){ 
+
+    header .header_first ul li a {
+        margin-right: 2px;
+    }
+
+    header .header_first {
+        margin-right: 0px;
+        margin-left: 12px;
+    }
+
+    header .header_2nd ul {
+        
+        justify-content: center;
+    }
+
+
+
+
+    .nav_part{
+
+        position: relative;
+    }
+
+  
+    nav .nav_part ul {
+        flex-direction: column;
+        /* border: 1px solid red; */
+        position: absolute;
+        right: -5px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.146);
+        padding: 10px 10px;
+        display: none;
+        border-radius: 5px;
+        z-index: 99;
+        top: 50px;
+    }
+
+    nav  ul.active{
+
+        display: block;
+    }
+
+    .toggle_btn {
+
+        margin-top: 35px;
+    }
+
+    nav .nav_part ul li {
+
+        padding-top: 0px;
+      
+    }
+
+    nav .nav_part ul li a {
+
+        color: #000000;
+        font-size: 15px;
+        padding: 0px 0px;
+       
+    }
+
+    nav .nav_part ul li {
+       
+        margin-right: 0px;
+    }
+
+    nav .logo_img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #banner .banner_img {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    #banner .banner_img h2 {
+        font-size: 30px;
+       
+    }
+
+    #banner .banner_img h1 {
+      
+        font-size: 60px;
+        padding-bottom: 12px;
+    }
+
+    #banner .banner_img p {
+
+        font-size: 13px;
+        line-height: 15px;
+        padding-bottom: 70px;
+    }
+
+    #banner .angel_left {
+      
+        top: 66%;
+    }
+
+    #banner .angel_right {
+      
+        top: 66%;
+    }
+
+    .common_heading p {
+       
+        font-size: 18px;
+        padding-bottom: 25px;
+        line-height: 25px;
+        
+    }
+
+    .common_heading h2 {
+       
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .common_heading {
+
+        padding-top: 40px;
+    }
+
+    .products_full {
+
+        padding-bottom: 60px;
+    }
+
+    #products {
+
+        padding-bottom: 40px;
+    }
+
+    #work .paragraph_full p {
+      
+        font-size: 16px;
+    }
+
+    #work .our_list {
+
+        padding-top: 30px;
+    }
+
+    #work {
+       
+        padding-bottom: 50px;
+    }
+
+    #work .our_list ul li {
+       
+        font-size: 17px;
+        line-height: 35px;
+    }
+
+    #about_us .img_part {
+        width: 30%;
+    }
+
+    #about_us .about_part .about_partn {
+
+        width: 70%;
+      
+    }
+
+    #clients {
+       
+        padding-bottom: 50px;
+    }
+
+    #waxom .waxom_part {
+
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    #waxom .links_button {
+        
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and  (max-width: 991.98px) { 
+
+    header .header_first ul {
+     
+        justify-content: center;
+    }
+
+    header .header_2nd ul {
+       
+        justify-content: center;
+    }
+
+    .nav_part{
+
+        position: relative;
+    }
+  
+    nav .nav_part ul {
+        flex-direction: column;
+        /* border: 1px solid red; */
+        position: absolute;
+        right: -5px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.146);
+        padding: 10px 10px;
+        display: none;
+        border-radius: 5px;
+        z-index: 99;
+        top: 50px;
+    }
+
+    nav  ul.active{
+
+        display: block;
+    }
+
+    .toggle_btn {
+
+        margin-top: 40px;
+    }
+
+    nav .logo_img {
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav .nav_part ul li {
+
+        padding-top: 0px;
+        margin-right: 70px;
+    }
+
+    nav .nav_part ul {
+      
+        top: 90px;
+    }
+
+    #banner .banner_img {
+
+        padding-top: 115px;
+    }
+
+    #banner .banner_img p {
+
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 70px;
+        padding-top: 10px;
+    }
+
+    #banner .angel_left {
+      
+        top: 65%;
+     
+    }
+
+    #banner .angel_right {
+      
+        top: 65%;
+        
+    }
+
+    #banner .banner_img h1 {
+      
+        font-size: 66px;
+        padding-bottom: 19px;
+       
+    }
+
+    #banner .banner_img h2 {
+
+        font-size: 35px;
+      
+    }
+
+    #waxom .waxom_part h2 {
+        font-size: 25px;
+        line-height: 30px;
+      
+    }
+
+    #waxom .waxom_part p {
+      
+        font-size: 18px;
+        line-height: 30px;
+       
+    }
+
+  
+
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media  (min-width: 992px)  and (max-width: 1199.98px){
+
+    header .header_first ul li a {
+        margin-right: 7px;
+    }
+
+    header .header_2nd ul li a {
+        margin-right: 6px;
+    }
+
+    nav .nav_part ul li {
+        padding-top: 3px;
+        margin-right: 12px;
+    }
+
+    nav .nav_part ul li a {
+   
+        padding: 21px 0px;
+       font-size: 16px;
+    }
+
+    nav .logo_img img {
+
+        height: 80px;
+          
+    }
+
+    #banner .angel_left {
+      
+        top: 60%;
+       
+    }
+
+    #banner .angel_left {
+        top: 41%;
+    }
+
+    #banner .angel_right {
+      
+        top: 60%;
+    }
+
+    #banner .banner_img p {
+
+
+        font-size: 19px;
+        line-height: 19px;
+        padding-bottom: 100px;
+       
+    }
+
+    #banner .banner_img {
+        padding-top: 130px;
+      
+    }
+    
+    #work .our_list ul li {
+      
+        font-size: 16px;
+        line-height: 48px;
+    }
+
+    #work .paragraph_full p {
+      
+        font-size: 16px;
+      
+    }
+
+    #about_us .img_part {
+
+        width: 40%;
+    }
+
+    #about_us .about_part .about_partn {
+
+        width: 60%;
+    }
+
+    #footer_bottom .footer_item2 {
+        margin-right: 10px;
+    }
+
+    #footer_bottom .footer_item1 ul li {
+      
+        margin-right: 5px;
+    }
+
+    #footer_bottom .footer_item1 ul li .ft_border {
+        margin-left: 5px;
+    }
+ } 
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media  (min-width: 1200px) and (max-width: 1399.98px) { 
+
+
+    #banner .banner_img p {
+
+
+        font-size: 17px;
+        line-height: 18px;
+        padding-bottom: 52px;
+       
+    }
+
+    #banner .banner_img {
+        padding-top: 110px;
+        padding-bottom: 112px;
+    }
+
+    #banner .angel_left {
+      
+        top: 62%;
+       
+    }
+
+    #banner .angel_right {
+      
+        top: 62%;
+    }
+
+    #about_us .img_part {
+
+        width: 30%;
+    }
+
+    #about_us .about_part .about_partn {
+
+        width: 70%;
+    }
+
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) { 
+
+
+    #banner .angel_left {
+      
+        left: -4px;
+        
+    }
+
+    #banner .angel_right {
+       
+        right: 15px;
+      
+    }
+
+    #banner .banner_img p {
+
+
+        font-size: 20px;
+      
+    }
+
+    #banner .angel_left {
+      
+        top: 52%;
+      
+    }
+
+    #banner .angel_right {
+      
+        top: 52%;
+      
+    }
+}
