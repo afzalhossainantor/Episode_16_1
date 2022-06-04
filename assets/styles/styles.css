@@ -47,7 +47,7 @@ li {
 header {
 
     background-color: #f9f9f9;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 header .header_first {
@@ -114,7 +114,7 @@ header .header_first ul li a button i {
 }
 
 
-header .header_2nd {}
+/* header .header_2nd {} */
 
 header .header_2nd ul {
 
@@ -157,7 +157,7 @@ header .header_2nd ul li a span {
 /**nav part start**/
 
 nav {
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 nav .logo_img {}
@@ -211,7 +211,7 @@ nav .nav_part ul li a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: var(--border);
+    /* border: var(--border); */
     position: relative;
 }
 
@@ -256,7 +256,7 @@ nav .nav_part ul li a:hover {
 }
 
 #banner .banner_img .link_btn {
-    border: var(--border);
+    /* border: var(--border); */
     background-color: red;
     color: white;
     padding: 20px 25px;
@@ -303,7 +303,7 @@ nav .nav_part ul li a:hover {
 .common_heading {
     padding-top: 60px;
     text-align: center;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 .common_heading h2 {
@@ -333,7 +333,7 @@ nav .nav_part ul li a:hover {
 
 #benefits .benefits_about {
 
-    border: var(--border);
+    /* border: var(--border); */
     text-align: center;
 }
 
@@ -802,7 +802,7 @@ nav .nav_part ul li a:hover {
 #about_us .about_part .about_partn {
     width: 80%;
     display:  block;
-    border: var(--border);
+    /* border: var(--border); */
     background-color: #fafafa;
 }
 
